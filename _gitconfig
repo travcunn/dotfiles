@@ -1,6 +1,7 @@
 [user]
 	name = Travis Cunningham
 	email = tcunningham@smartfile.com
+	signkingkey = 67C0FD6432A6BAB9
 
 [color]
     diff = auto
@@ -27,3 +28,5 @@
     lol = log --graph --decorate --pretty=oneline --abbrev-commit
     lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
     ls = ls-files
+[commit]
+	gpgsign = true
