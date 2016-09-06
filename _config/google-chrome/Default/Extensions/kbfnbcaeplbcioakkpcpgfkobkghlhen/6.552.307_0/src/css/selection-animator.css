@@ -1,0 +1,28 @@
+.g-selection-anim {
+  position: absolute;
+  background: #488cc8;
+  transition: width 1.3s cubic-bezier(0.12, 0.44, 0, 0.95);
+  z-index: 10000000;
+  height: 2px;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+.g-selection-anim-dict {
+  transition: width 0.4s cubic-bezier(0.12, 0.44, 0, 0.95);
+}
+.g-selection-anim.gr_ver_2 {
+  position: absolute;
+  background: url("data:image/svg+xml;utf8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%27100%%27%20height=%27100%%27%3E%3Cline%20x1=%274%27%20y1=%27100%%27%20x2=%27100%%27%20y2=%27100%%27%20transform=%27translate(-2,%20-3)%27%20stroke-width=%273%27%20stroke-linecap=%27round%27%20stroke=%27#488CC8%27/%3E%3C/svg%3E");
+  transition: width 1.3s cubic-bezier(0.12, 0.44, 0, 0.95);
+  z-index: 10000000;
+  height: 5px !important;
+  -webkit-transform: translateY(-6px) !important;
+          transform: translateY(-6px) !important;
+}
+.g-selection-anim.gr_ver_2-dict {
+  transition: width 0.4s cubic-bezier(0.12, 0.44, 0, 0.95);
+}
+.gr-selection-anim-dict.gr_ver_2 {
+  -webkit-transform: translateY(-2px) !important;
+          transform: translateY(-2px) !important;
+}

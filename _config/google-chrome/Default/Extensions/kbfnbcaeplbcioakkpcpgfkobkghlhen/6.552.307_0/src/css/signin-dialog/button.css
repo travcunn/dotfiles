@@ -1,0 +1,44 @@
+._f66-button_container {
+  position: relative;
+  text-align: center !important;
+}
+
+._f66-button_container ._f66-button_spinner {
+  margin-top: -10px !important;
+  text-align: center !important;
+}
+
+._f66-button_container ._f66-button_spinner div {
+  background-color: #fff;
+}
+
+._f66-button {
+  font-family: Lato !important;
+  background-image: linear-gradient(180deg, #e04f42 0, #d0352c);
+  border-radius: 56px !important;
+  font-size: 18px;
+  color: #fff;
+  line-height: 22px !important;
+  text-align: center !important;
+  border: none;
+  outline: none;
+  width: 339px;
+  height: 45px;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in;
+  outline: none !important;
+}
+
+._f66-button:hover {
+  background-image: linear-gradient(180deg, #ea6756 0, #d0352c);
+  box-shadow: inset 0 -1px 0 #de210d, inset 0 1px 0 #ea6756;
+}
+
+._f66-button:active {
+  background-image: linear-gradient(0deg, #ea6756 0, #d0352c);
+  box-shadow: inset 0 1px 0 #de210d, 0 -1px 0 #d64e46 inset;
+}
+
+._f66-loading ._f66-button {
+  pointer-events: none;
+}

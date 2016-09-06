@@ -1,0 +1,18 @@
+﻿<collection>
+  <item>
+    <key>
+      <string>Theme</string>
+    </key>
+    <value>
+      <string>classic</string>
+    </value>
+  </item>
+  <item>
+    <key>
+      <string>Difficulty</string>
+    </key>
+    <value>
+      <string>8</string>
+    </value>
+  </item>
+</collection>

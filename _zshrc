@@ -1,0 +1,66 @@
+# Path to your oh-my-zsh installation.
+export ZSH=/home/travis/.oh-my-zsh
+
+# Set name of the theme to load.
+# Look in ~/.oh-my-zsh/themes/
+# Optionally, if you set this to "random", it'll load a random theme each
+# time that oh-my-zsh is loaded.
+#ZSH_THEME="avit"
+ZSH_THEME="agnoster"
+
+# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(git)
+
+# User configuration
+
+export PATH="/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/home/travis/.local/bin:/home/travis/bin"
+
+export GOPATH="$HOME"
+
+source $ZSH/oh-my-zsh.sh
+
+export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+
+eval "$(thefuck --alias)"
+
+# Manually set your language environment
+export LANG=en_US.UTF-8
+
+# Set the default editor
+export EDITOR='vim'
+
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+#
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
+
+alias v='vim'
+
+SSH_ENV=$HOME/.ssh/environment
+
+# start the ssh-agent
+function start_agent {
+    echo "Initializing new SSH agent..."
+    # spawn ssh-agent
+    /usr/bin/ssh-agent | sed 's/^echo/#echo/' > "${SSH_ENV}"
+    echo succeeded
+    chmod 600 "${SSH_ENV}"
+    . "${SSH_ENV}" > /dev/null
+    /usr/bin/ssh-add
+}
+
+if [ -f "${SSH_ENV}" ]; then
+     . "${SSH_ENV}" > /dev/null
+	 ps -ef | grep ${SSH_AGENT_PID} | grep ssh-agent$ > /dev/null || {
+	    start_agent;
+	}
+else
+    start_agent;
+fi

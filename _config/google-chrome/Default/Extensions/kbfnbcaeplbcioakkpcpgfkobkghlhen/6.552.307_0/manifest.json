@@ -1,0 +1,35 @@
+{
+   "background": {
+      "page": "forge.html"
+   },
+   "browser_action": {
+      "default_icon": "src/icon/icon48-chrome.png",
+      "default_popup": "src/popup.html",
+      "default_title": "Grammarly"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [ "src/css/btn-hover-menu-new.css", "src/css/btn-hover-menu.css", "src/css/checkbox.css", "src/css/dialog.css", "src/css/fonts.css", "src/css/header-component.css", "src/css/permission-explanation.css", "src/css/popup-settings.css", "src/css/popup-signin.css", "src/css/referral.css", "src/css/selection-animator.css", "src/css/signin.css", "src/css/sites.css", "src/css/spinner.css", "src/css/textarea-btn-new.css", "src/css/textarea-btn.css", "src/css/toolbar-signin.css", "src/css/tooltip.css", "src/css/underline.css", "src/css/cards/base-card.css", "src/css/cards/dictionary-card.css", "src/css/cards/grammar-card.css", "src/css/signin-dialog/button.css", "src/css/signin-dialog/input.css", "src/css/signin-dialog/signin-dialog.css", "src/css/signin-dialog/welcome.css" ],
+      "js": [ "forge/app_config.js", "forge/all.js", "src/js/_vendor.js", "src/js/bundle.js", "src/js/editor-popup.js", "src/js/styles.js", "src/js/test-editor-popup.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_idle"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://stats-public.grammarly.io/ https://auth.grammarly.com/ https://www.google-analytics.com/analytics.js https://www.google-analytics.com/analytics_debug.js https://ssl.google-analytics.com https://cdn.mxpnl.com/libs/mixpanel-2.2.min.js; object-src 'self'",
+   "description": "Spell check and grammar check your writing when communicating online. Boost your productivity and credibility everywhere you write!",
+   "externally_connectable": {
+      "matches": [ "*://*.grammarly.com/*" ]
+   },
+   "icons": {
+      "128": "src/icon/icon128.png",
+      "16": "src/icon/icon16.png",
+      "48": "src/icon/icon48-chrome.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDXGarzPXVb5UpkDTsw4cdApsrQvPTNTMXdz/7j9QVuQZoPm5R9l3o9ppfGYeae7sZRaJiueBEO/LA8s7KCuE9icPl72xSqdei3Jo0PTTUlmNQIysl9PZy6Xd520sS5wNFhPaxOy1ApHZ6+o+yMEXWmjx2fX0tHJd7dKTii47MTnQIDAQAB",
+   "manifest_version": 2,
+   "name": "Grammarly Spell Checker & Grammar Checker",
+   "optional_permissions": [ "clipboardRead" ],
+   "permissions": [ "\u003Call_urls>", "tabs", "notifications", "cookies", "system.cpu", "clipboardWrite" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "6.552.307",
+   "web_accessible_resources": [  ]
+}

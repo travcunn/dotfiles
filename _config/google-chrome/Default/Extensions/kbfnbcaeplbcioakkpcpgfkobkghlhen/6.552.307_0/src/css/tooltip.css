@@ -1,0 +1,131 @@
+.gr__tooltip {
+  position: absolute;
+  opacity: 0;
+  top: -9999px;
+  z-index: 100000;
+  display: inline-block;
+  width: 240px;
+  font-family: "Lato" !important;
+  transition: opacity 0.2s ease-out 0.4s;
+}
+.gr__tooltip.gr-no-transition {
+  transition: none !important;
+}
+.gr__tooltip-logo {
+  image: "gbutton.png" 24px 24px;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  top: 17px;
+  left: 11px;
+}
+.gr__tooltip-button {
+  margin-left: 8px !important;
+  margin-top: -8px !important;
+}
+.gr__tooltip-button .gr__triangle {
+  left: -8px;
+}
+.gr__tooltip-match {
+  margin-top: -10px !important;
+}
+.gr__tooltip::before,
+.gr__tooltip-content {
+  position: relative;
+  color: #fff;
+  font-size: 14px !important;
+  opacity: 0.9;
+  background-color: #212121;
+  padding: 11px 8px !important;
+  display: block;
+}
+.gr__tooltip-content {
+  padding: 11px 20px !important;
+  padding-top: 10px !important;
+  width: 224px;
+  display: none;
+}
+.gr__tooltip::before {
+  content: attr(data-content);
+  padding-left: 45px !important;
+}
+.gr__tooltip.gr__flipped {
+  margin-top: 12px !important;
+}
+.gr__tooltip.gr__flipped .gr__triangle {
+  bottom: 100%;
+  top: auto;
+  top: initial;
+  border-top: 9px solid transparent !important;
+  border-bottom: 9px solid #212121 !important;
+}
+.gr__tooltip .gr__triangle {
+  display: inline-block;
+  position: absolute;
+  bottom: initial;
+  top: 100%;
+  opacity: 0.9;
+  width: 0;
+  height: 0;
+  border-top: 9px solid #212121 !important;
+  border-left: 8px solid transparent !important;
+  border-right: 8px solid transparent !important;
+}
+.gr__tooltip.fr-btn-offline-tooltip {
+  margin-left: -54px !important;
+  margin-top: -15px !important;
+  transition: none !important;
+}
+.gr__tooltip.fr-btn-offline-tooltip .fr-tooltip-title {
+  font-weight: bold;
+  display: block;
+  padding-bottom: 10px !important;
+  font-size: 15px !important;
+}
+.gr__tooltip.fr-btn-offline-tooltip .gr__triangle {
+  left: -8px;
+}
+.gr__tooltip.fr-btn-offline-tooltip::before {
+  display: none;
+}
+.gr__tooltip.fr-btn-offline-tooltip .gr__tooltip-logo {
+  display: none;
+}
+.gr__tooltip.fr-btn-offline-tooltip .gr__tooltip-content {
+  display: block;
+  padding: 20px !important;
+  font-size: 13px !important;
+}
+.gr__tooltip.fr-btn-offline-tooltip .fr-dialog-br {
+  display: block;
+  margin-bottom: 10px !important;
+}
+.gr__tooltip.fr-btn-offline-tooltip .fr-reload-tab {
+  border-bottom: 1px solid #fff !important;
+  cursor: pointer;
+}
+.gr__tooltip.gr-notfound-tooltip {
+  width: auto;
+  margin-top: -24px !important;
+}
+.gr__tooltip.gr-notfound-tooltip:before {
+  padding: 16px 18px !important;
+  background-color: #323439 !important;
+}
+.gr__tooltip.gr-notfound-tooltip .gr__tooltip-logo {
+  display: none;
+}
+.gr__tooltip.gr-notfound-tooltip .gr__triangle {
+  border-top-color: #323439 !important;
+}
+.gr__tooltip.gr-notfound-tooltip.gr__flipped {
+  margin-top: 12px !important;
+}
+.gr__tooltip.gr-notfound-tooltip.gr__flipped .gr__triangle {
+  border-top-color: transparent !important;
+  border-bottom-color: #323439 !important;
+}
+.gr__tooltip.gr__flipped.fr-btn-offline-tooltip {
+  margin-top: 15px !important;
+}

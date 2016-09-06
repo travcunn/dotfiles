@@ -1,0 +1,219 @@
+/*Global Styles*/
+html {
+  margin: 0px !important;
+  padding: 0px !important;
+  -webkit-user-select: none;
+  font: normal 12px Segoe UI, 400px;
+}
+
+body {
+  margin: 0px !important;
+  padding: 0px !important;
+  -webkit-transition: opacity 0.5s linear;
+  -webkit-transition-delay: 0.25s;
+  opacity: 0;
+}
+
+toolbarspring
+{
+  -webkit-box-flex: 100;
+}
+
+toolbaritem
+{
+  border: 1px solid transparent;
+}
+
+toolbaritem, hbox, separator, toolbarspring
+{
+  margin: 0px;
+  height: inherit;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-align: stretch;
+  -webkit-box-sizing: border-box;
+}
+
+hbox[align=center]
+{
+  -webkit-box-align: center
+}
+
+separator{
+  margin: 0px 2px;
+}
+
+.javascript-javascript, .text-javascript, .menu_button-javascript {
+  width:0px;
+  height: 100%;
+  border: none;
+}
+
+.rss-dot_separator {
+  vertical-align: middle;
+  margin: 0 2px;
+}
+
+.image-image {
+  max-height: 19px;
+}
+
+.text-container {
+  -webkit-box-align: center;
+}
+
+.text-container > .text-text {
+  color: blue;
+  cursor: pointer;
+  display: table-cell;
+  text-overflow: ellipsis;
+  overflow:hidden;
+  white-space:nowrap;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+.javascript-headline > .text-container > .text-text{
+    padding: 1px 0;
+}
+
+.search-container > separator
+{
+  margin-left: 4px !important;
+}
+
+.search-container .image-image {
+    margin: 0 2px;
+}
+
+#ALX_NS_PH_TB-Toolbar {
+  padding: 0 !important;
+  margin: 0 !important;
+  height: 100%;
+}
+
+#ALX_NS_PH_TB-Toolbar-container {
+  background-image: url(/images/b-opaque-background.png);
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  -webkit-box-align: center;
+  padding: 0 0 0 0px;
+}
+
+.toolbar-ALX_NS_PH_TB_right_container {
+}
+
+.thick-groove {
+  width: 2px !important;
+  background-image: url(/images/divider.png);
+  height: 100%;
+}
+
+.image-container,
+.menu-container,
+.search-search_buddy,
+.search-search_menu {
+  cursor: pointer;
+}
+
+.menu-container{
+}
+
+.menu-menu_icon {
+  padding-left: 3px;
+  max-height: 16px;
+}
+
+.menu-menu_image {
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/*Searchbox Styles*/
+.textbox-textbox {
+  margin: 0;
+  padding: 4px 5px 3px;
+  font-style: italic;
+  border: none;
+  background-color: #FFFFFF;
+  vertical-align: middle;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  font: normal 12px Segoe UI,400px;
+}
+
+.textbox-container {
+  height: auto;
+}
+
+.textbox-textbox:focus {
+  outline: none !important;
+}
+
+.search-container {
+  -webkit-box-align: center;
+}
+
+.search-search_container {
+  border: 1px solid #999999;
+  border-radius: 3px;
+  background-color: #fff;
+  height: 25px;
+}
+
+.search-search_container > .menu_button-container
+{
+  height: auto;
+}
+
+.menu-menu_icon {
+  padding-left: 3px;
+  vertical-align: text-bottom;
+}
+
+.search-container, .menu_button-container{
+  margin: 0 2px;
+}
+
+toolbaritem > .rss-container,
+toolbaritem > .image-container,
+toolbaritem > .text-container,
+toolbaritem > .javascript-container{
+    margin: 0 2px;
+}
+
+.search-container .menu_button-container,
+.javascript-container > .javascript-javascript_container > .menu_button-container,
+.rss-container .menu_button-container{
+    margin: 0;
+}
+
+.toolbar-ALX_NS_PH_TB_right_container > hbox:last-child{
+    margin: 0px 2px;
+}
+
+toolbaritem > .image-container,
+toolbaritem > .text-container,
+toolbaritem .rss-headline > .text-container,
+toolbaritem > .javascript-container > .javascript-javascript_container,
+toolbaritem > .rss-container > .rss-rss > .menu_button-container,
+toolbaritem > .menu_button-container {
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding: 1px 2px;
+}
+
+toolbaritem > .image-container:hover,
+toolbaritem > .text-container:hover,
+toolbaritem .rss-headline > .text-container:hover,
+toolbaritem > .javascript-container > .javascript-javascript_container:hover,
+toolbaritem > .rss-container > .rss-rss > .menu_button-container:hover,
+toolbaritem > .menu_button-container:hover {
+    border: 1px solid #999;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    background: #ebebeb -webkit-linear-gradient(#fefefe, #f8f8f8 40%, #e9e9e9);
+}

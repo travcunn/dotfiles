@@ -1,0 +1,9 @@
+{
+    "settings": {
+        "key": "live_105622110_gnZz5zvtJeF4e4G5prMvyrAJcRQhAT",
+        "server": "rtmp://live-ord.twitch.tv/app",
+        "service": "Twitch",
+        "show_all": false
+    },
+    "type": "rtmp_common"
+}

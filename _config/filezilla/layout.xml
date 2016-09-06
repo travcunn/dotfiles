@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<FileZilla3>
+    <Layout Builddate="2015-06-03" Buildtime="14:23:07">
+        <Resources>
+            <xrc file="certificate.xrc" date="1424464722" />
+            <xrc file="dialogs.xrc" date="1431437739" />
+            <xrc file="inputdialog.xrc" date="1405951519" />
+            <xrc file="menus.xrc" date="1424752202" />
+            <xrc file="netconfwizard.xrc" date="1405951519" />
+            <xrc file="quickconnectbar.xrc" date="1422020126" />
+            <xrc file="settings.xrc" date="1426480203" />
+            <xrc file="sitemanager.xrc" date="1414883422" />
+            <xrc file="toolbar.xrc" date="1419161702" />
+            <xrc file="update.xrc" date="1405951519" />
+        </Resources>
+        <Language id="en_US" date="">
+            <Font font="Ubuntu 12" width="919" height="18" />
+            <Dialog name="Settings" width="610" />
+            <Dialog name="Netconf" width="650" />
+            <Dialog name="Site Manager" width="738" />
+        </Language>
+    </Layout>
+</FileZilla3>

@@ -1,0 +1,16 @@
+{
+    "current_user": "travcunn",
+    "user": {
+        "id": "a6da953fd3bf4754ea3fef217f948419",
+        "name": "travcunn",
+        "salt": "b83170c2cd7109a5147a189fcb8ae577"
+    },
+    "users": {
+        "travcunn": {
+            "device": "b681e30a8303ef7dcedb6fa32d9f5918",
+            "id": "a6da953fd3bf4754ea3fef217f948419",
+            "name": "travcunn",
+            "salt": "b83170c2cd7109a5147a189fcb8ae577"
+        }
+    }
+}

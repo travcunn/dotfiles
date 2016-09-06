@@ -1,0 +1,45 @@
+body {
+  -webkit-box-align: start;
+  display: -webkit-box;
+  background: -webkit-gradient(linear, left top, left bottom, from(#4D98CE), to(#07466D));
+}
+
+#ALX_NS_PH_TB_Private-iframe {
+  -webkit-box-shadow: 3px 3px 10px #022844;
+  border-radius: 3px;
+}
+
+#ALX_NS_PH_TB_Private-head {
+  color: white;
+  font: 30px Helvetica;
+  text-align: center;
+  text-shadow: 0px 1px 2px #035E89;
+  margin-bottom: 5px;
+}
+
+#ALX_NS_PH_TB_Private-foot {
+  color: white;
+  font: italic 12px Helvetica;
+  text-align: right;
+  text-shadow: 0px 1px 2px #035E89;
+  background: url("/images/option-logo-alexa-white.png") right no-repeat;
+  -webkit-box-align: center;
+  height: 20px;
+  display: -webkit-box;
+  -webkit-box-pack: end;
+  margin-top: 3px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+#ALX_NS_PH_TB_Private-body {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  border: 0px;
+}
+
+#ALX_NS_PH_TB_Private-iframe-container {
+  margin-top: 30px;
+  width: 100%;
+}

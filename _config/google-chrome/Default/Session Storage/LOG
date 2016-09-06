@@ -1,0 +1,39 @@
+2016/02/05-10:20:30.889 9037 Reusing MANIFEST /home/travis/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2016/02/05-10:20:30.890 9037 Recovering log #2114
+2016/02/05-10:20:30.896 9037 Reusing old log /home/travis/.config/google-chrome/Default/Session Storage/002114.log 
+2016/02/05-11:05:55.196 10645 Level-0 table #2119: started
+2016/02/05-11:05:55.221 10645 Level-0 table #2119: 1139277 bytes OK
+2016/02/05-11:05:55.229 10645 Delete type=0 #2114
+2016/02/05-11:28:30.886 10645 Compacting 1@0 + 1@1 files
+2016/02/05-11:28:30.901 10645 Generated table #2120: 377 keys, 395673 bytes
+2016/02/05-11:28:30.901 10645 Compacted 1@0 + 1@1 files => 395673 bytes
+2016/02/05-11:28:30.907 10645 compacted to: files[ 0 1 0 0 0 0 0 ]
+2016/02/05-11:28:30.907 10645 Delete type=2 #2116
+2016/02/05-11:28:30.908 10645 Delete type=2 #2119
+2016/02/05-12:53:35.322 10645 Level-0 table #2122: started
+2016/02/05-12:53:35.343 10645 Level-0 table #2122: 687399 bytes OK
+2016/02/05-12:53:35.350 10645 Delete type=0 #2118
+2016/02/05-13:03:30.887 10645 Compacting 1@0 + 1@1 files
+2016/02/05-13:03:30.924 10645 Generated table #2123: 394 keys, 333458 bytes
+2016/02/05-13:03:30.925 10645 Compacted 1@0 + 1@1 files => 333458 bytes
+2016/02/05-13:03:31.076 10645 compacted to: files[ 0 1 0 0 0 0 0 ]
+2016/02/05-13:03:31.076 10645 Delete type=2 #2120
+2016/02/05-13:03:31.076 10645 Delete type=2 #2122
+2016/02/05-13:37:38.741 10645 Level-0 table #2125: started
+2016/02/05-13:37:38.761 10645 Level-0 table #2125: 1323186 bytes OK
+2016/02/05-13:37:38.771 10645 Delete type=0 #2121
+2016/02/05-13:44:12.146 10645 Compacting 1@0 + 1@1 files
+2016/02/05-13:44:12.171 10645 Generated table #2126: 878 keys, 1337674 bytes
+2016/02/05-13:44:12.171 10645 Compacted 1@0 + 1@1 files => 1337674 bytes
+2016/02/05-13:44:12.177 10645 compacted to: files[ 0 1 0 0 0 0 0 ]
+2016/02/05-13:44:12.177 10645 Delete type=2 #2123
+2016/02/05-13:44:12.177 10645 Delete type=2 #2125
+2016/02/05-14:09:23.586 10645 Level-0 table #2128: started
+2016/02/05-14:09:23.607 10645 Level-0 table #2128: 1278749 bytes OK
+2016/02/05-14:09:23.610 10645 Delete type=0 #2124
+2016/02/05-14:29:28.903 10645 Compacting 1@0 + 1@1 files
+2016/02/05-14:29:29.019 10645 Generated table #2129: 1167 keys, 1579584 bytes
+2016/02/05-14:29:29.019 10645 Compacted 1@0 + 1@1 files => 1579584 bytes
+2016/02/05-14:29:29.063 10645 compacted to: files[ 0 1 0 0 0 0 0 ]
+2016/02/05-14:29:29.063 10645 Delete type=2 #2126
+2016/02/05-14:29:29.064 10645 Delete type=2 #2128

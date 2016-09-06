@@ -1,0 +1,42 @@
+[submodule "_vim/bundle/git"]
+	path = _vim/bundle/git
+	url = https://github.com/tpope/vim-git.git
+[submodule "_vim/bundle/gundo"]
+	path = _vim/bundle/gundo
+	url = https://github.com/sjl/gundo.vim.git
+[submodule "_vim/bundle/pydoc"]
+	path = _vim/bundle/pydoc
+	url = https://github.com/fs111/pydoc.vim.git
+[submodule "_vim/bundle/nerdtree"]
+	path = _vim/bundle/nerdtree
+	url = https://github.com/vim-scripts/The-NERD-tree.git
+[submodule "_vim/bundle/solarized"]
+	path = _vim/bundle/solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "_vim/bundle/markdown"]
+	path = _vim/bundle/markdown
+	url = https://github.com/plasticboy/vim-markdown.git
+[submodule "_vim/bundle/vim-addon-mw-utils"]
+	path = _vim/bundle/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule "_vim/bundle/tlib"]
+	path = _vim/bundle/tlib
+	url = https://github.com/tomtom/tlib_vim.git
+[submodule "_vim/bundle/vim-airline"]
+	path = _vim/bundle/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "_vim/bundle/vim-airline-themes"]
+	path = _vim/bundle/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "_vim/bundle/vim-go"]
+	path = _vim/bundle/vim-go
+	url = https://github.com/fatih/vim-go.git
+[submodule "_vim/bundle/vim-autopep8"]
+	path = _vim/bundle/vim-autopep8
+	url = https://github.com/tell-k/vim-autopep8.git
+[submodule "_vim/bundle/python-mode"]
+	path = _vim/bundle/python-mode
+	url = https://github.com/klen/python-mode.git
+[submodule "_vim/bundle/vim-fugitive"]
+	path = _vim/bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git

@@ -1,0 +1,26 @@
+[global_config]
+  enabled_plugins = ,
+  title_inactive_bg_color = "#2e2e2e"
+  title_inactive_fg_color = "#656565"
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    audible_bell = True
+    background_color = "#424242"
+    background_image = None
+    font = Ubuntu Mono 12
+    foreground_color = "#d0d0d0"
+    palette = "#424242:#cc0000:#aee55a:#c4a000:#5ab6ee:#75507b:#06989a:#d3d7cf:#424242:#ef2929:#a7ec64:#fce94f:#5ab6ee:#ad7fa8:#34e2e2:#eeeeec"
+    scroll_on_output = False
+    scrollback_infinite = True
+    show_titlebar = False
+    use_system_font = False

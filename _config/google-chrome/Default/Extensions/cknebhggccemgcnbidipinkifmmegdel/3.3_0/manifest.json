@@ -1,0 +1,36 @@
+{
+   "background": {
+      "page": "html/background.html"
+   },
+   "browser_action": {
+      "default_icon": "images/icon-19x19.png",
+      "default_title": "No Rank Data",
+      "popup": "html/popup.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "/js/api_early.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "/js/api_late.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' https://s3.amazonaws.com https://www.alexa.com; object-src 'self'",
+   "description": "The Official Alexa Traffic Rank Extension, providing Alexa Traffic Rank and site Information when clicked.",
+   "homepage_url": "http://www.alexa.com",
+   "icons": {
+      "128": "images/icon-128x128.png",
+      "48": "images/icon-48x48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCs+LW14DOPtlC+7wE9NTYlsoCdhK6F3MmTg7ZFFfBNvBE1n+pPM9ncFQuqTI9QAOifmeaZMRm55KyJHN1WT0Ishz1RFeXwT0DF0+4qOySpvLYwdEgkXBDQnK3mvncjCaX6KE6WolJt+Gim88aeDWC8QUJGZ0EYDuc/+67ZAoXGIQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "18",
+   "name": "Alexa Traffic Rank",
+   "permissions": [ "webRequestBlocking", "webRequest", "webNavigation", "tabs", "management", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.3",
+   "web_accessible_resources": [ "html/content/toolbar.html", "html/content/javascript_button.html", "html/content/menu.html", "html/content/menupopup.html" ]
+}

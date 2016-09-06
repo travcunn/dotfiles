@@ -1,0 +1,111 @@
+<monitors version="1">
+  <configuration>
+    <clone>no</clone>
+    <output name="DisplayPort-1">
+      <vendor>DEL</vendor>
+      <product>DELL P2412H</product>
+      <serial>KG49T22O062U</serial>
+      <width>1920</width>
+      <height>1080</height>
+      <rate>60</rate>
+      <x>1920</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>no</primary>
+      <presentation>no</presentation>
+    </output>
+    <output name="DisplayPort-2">
+      <vendor>DEL</vendor>
+      <product>DELL P2414H</product>
+      <serial>524N344526TL</serial>
+      <width>1920</width>
+      <height>1080</height>
+      <rate>60</rate>
+      <x>0</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>yes</primary>
+      <presentation>no</presentation>
+    </output>
+    <output name="LVDS">
+      <vendor>SDC</vendor>
+      <product>0x5441</product>
+      <serial>0x00000000</serial>
+    </output>
+  </configuration>
+  <configuration>
+    <clone>no</clone>
+    <output name="DisplayPort-1">
+      <vendor>DEL</vendor>
+      <product>DELL U2414H</product>
+      <serial>R9F1P4CP6LYL</serial>
+      <width>1080</width>
+      <height>1920</height>
+      <rate>60</rate>
+      <x>0</x>
+      <y>0</y>
+      <rotation>left</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>no</primary>
+      <presentation>no</presentation>
+    </output>
+    <output name="DisplayPort-2">
+      <vendor>DEL</vendor>
+      <product>DELL U2414H</product>
+      <serial>R9F1P4CP676L</serial>
+      <width>1080</width>
+      <height>1920</height>
+      <rate>60</rate>
+      <x>1080</x>
+      <y>0</y>
+      <rotation>right</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>yes</primary>
+      <presentation>no</presentation>
+    </output>
+    <output name="LVDS">
+      <vendor>SDC</vendor>
+      <product>0x5441</product>
+      <serial>0x00000000</serial>
+    </output>
+  </configuration>
+  <configuration>
+    <clone>no</clone>
+    <output name="DisplayPort-2">
+      <vendor>SHP</vendor>
+      <product>LC-50LB150U</product>
+      <serial>0x01010101</serial>
+      <width>1920</width>
+      <height>1080</height>
+      <rate>60</rate>
+      <x>0</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>no</primary>
+      <presentation>no</presentation>
+    </output>
+    <output name="LVDS">
+      <vendor>SDC</vendor>
+      <product>0x5441</product>
+      <serial>0x00000000</serial>
+      <width>1280</width>
+      <height>720</height>
+      <rate>59.855125427246094</rate>
+      <x>0</x>
+      <y>0</y>
+      <rotation>normal</rotation>
+      <reflect_x>no</reflect_x>
+      <reflect_y>no</reflect_y>
+      <primary>yes</primary>
+      <presentation>no</presentation>
+    </output>
+  </configuration>
+</monitors>
