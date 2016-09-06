@@ -7,3 +7,4 @@ _vim/ropevim/pylibs*
 *.pyc
 
 _config/google-chrome*
+_config/keybase*
