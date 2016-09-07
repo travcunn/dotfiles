@@ -15,11 +15,11 @@
 [profiles]
   [[default]]
     audible_bell = True
-    background_color = "#424242"
+    background_color = "#002b36"
     background_image = None
-    font = Ubuntu Mono 12
-    foreground_color = "#d0d0d0"
-    palette = "#424242:#cc0000:#aee55a:#c4a000:#5ab6ee:#75507b:#06989a:#d3d7cf:#424242:#ef2929:#a7ec64:#fce94f:#5ab6ee:#ad7fa8:#34e2e2:#eeeeec"
+    font = DejaVu Sans Mono 10
+    foreground_color = "#839496"
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
     scroll_on_output = False
     scrollback_infinite = True
     show_titlebar = False
