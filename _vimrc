@@ -109,7 +109,7 @@ nnoremap <leader>. :lcd %:p:h<CR>
 
 """ Insert completion
 " don't select first item, follow typing in autocomplete
-set completeopt=menuone,longest,preview
+"set completeopt=menuone,longest,preview
 set pumheight=6             " Keep a small completion window
 
 """ Moving Around/Editing
@@ -159,7 +159,7 @@ set hlsearch                " Highlight searches by default.
 set incsearch               " Incrementally search while typing a /regex
 
 " Color scheme
-colorscheme molokai
+colorscheme solarized
 " Airline theme
 let g:airline_theme='powerlineish'
 
@@ -212,10 +212,17 @@ let g:autopep8_aggressive=1
 map <F9> :call yapf#YAPF()<cr>
 imap <F9> <c-o>:call yapf#YAPF()<cr>
 
-let g:pymode_lint = 1
-let g:pymode_lint_on_write = 1
-let g:pymode_lint_checkers = ['pyflakes', 'pep8', 'mccabe']
-let g:pymode_lint_unmodified = 1
-let g:pymode_lint_on_fly = 1
-let g:pymode_lint_signs = 1
-let g:pymode_lint_cwindow = 0
+" python-mode
+let g:pymode_breakpoint = 1 " Enable breakpoints
+let g:pymode_breakpoint_bind = '<leader>b' " Breakpoint binding
+let g:pymode_breakpoint_cmd = 'from nose.tools import set_trace; set_trace()'
+let g:pymode_folding = 0 " Disable folding
+let g:pymode_indent = 1 " Enable pep8 compliant indents
+let g:pymode_lint = 1 " Enable linting
+let g:pymode_lint_on_write = 1 " Run linters when file is saved
+let g:pymode_lint_checkers = ['pyflakes', 'pep8'] " Linters to run
+let g:pymode_lint_unmodified = 1 " Lint on save even if unmodified
+let g:pymode_lint_on_fly = 1 " Lint on the fly
+let g:pymode_lint_signs = 1 " Show lint problems next to line numbers
+let g:pymode_lint_cwindow = 0 " Hide lint window
+let g:pymode_rope = 0 " Disable rope
