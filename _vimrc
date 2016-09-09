@@ -159,7 +159,8 @@ set hlsearch                " Highlight searches by default.
 set incsearch               " Incrementally search while typing a /regex
 
 " Color scheme
-colorscheme solarized
+"colorscheme solarized
+colorscheme molokai
 " Airline theme
 let g:airline_theme='powerlineish'
 
