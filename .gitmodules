@@ -46,3 +46,9 @@
 [submodule "_vim/bundle/YouCompleteMe"]
 	path = _vim/bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "_vim/bundle/YouCompleteMe/third_party/requests-futures"]
+	path = _vim/bundle/YouCompleteMe/third_party/requests-futures
+	url = https://github.com/ross/requests-futures
+[submodule "_vim/bundle/YouCompleteMe/third_party/ycmd"]
+	path = _vim/bundle/YouCompleteMe/third_party/ycmd
+	url = https://github.com/Valloric/ycmd
