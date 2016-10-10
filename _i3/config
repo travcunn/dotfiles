@@ -163,5 +163,5 @@ exec --no-startup-id feh --bg-scale /home/travis/Pictures/mac11.jpg
 exec /usr/libexec/gnome-settings-daemon
 
 # Keyboard repeat key settings
-# Set initial delay 300ms, repeat 35ms
-exec --no-startup-id xset r rate 300 35
+# Set initial delay 300ms, repeat 50ms
+exec --no-startup-id xset r rate 300 50

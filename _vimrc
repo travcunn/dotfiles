@@ -66,6 +66,7 @@ map <c-l> <c-w>l
 map <c-h> <c-w>h
 
 " NERDTree
+let NERDTreeIgnore = ['\.pyc$']
 map <leader>n :NERDTreeToggle<CR>
 
 " Gundo

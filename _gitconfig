@@ -25,8 +25,8 @@
     df = diff
     lg = log -p
     up = !sh -c 'git pull --rebase --prune && git log --pretty=format:\"%Cred%ae %Creset- %C(yellow)%s %Creset(%ar)\" HEAD@{1}..'
-    lol = log --graph --decorate --pretty=oneline --abbrev-commit
-    lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+    lol = log --graph --decorate --oneline
+    lola = log --graph --decorate --oneline --all
     ls = ls-files
 [commit]
 	gpgsign = true
