@@ -27,7 +27,7 @@ font pango:DejaVu Sans Mono 8
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec terminator
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -164,4 +164,4 @@ exec /usr/libexec/gnome-settings-daemon
 
 # Keyboard repeat key settings
 # Set initial delay 200ms, repeat 50ms
-exec --no-startup-id xset r rate 200 50
+exec --no-startup-id xset r rate 250 50
