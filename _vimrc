@@ -217,7 +217,7 @@ imap <F9> <c-o>:call yapf#YAPF()<cr>
 " python-mode
 let g:pymode_breakpoint = 1 " Enable breakpoints
 let g:pymode_breakpoint_bind = '<leader>b' " Breakpoint binding
-let g:pymode_breakpoint_cmd = 'from nose.tools import set_trace; set_trace()'
+let g:pymode_breakpoint_cmd = 'from ipdb import set_trace; set_trace()'
 let g:pymode_folding = 0 " Disable folding
 let g:pymode_indent = 1 " Enable pep8 compliant indents
 let g:pymode_lint = 1 " Enable linting
