@@ -177,8 +177,8 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-        status_command i3status
-        position bottom
+        status_command i3blocks -c ~/.i3/i3blocks.conf
+        position top
         colors {
             background $bg-color
                 separator #757575
@@ -194,8 +194,8 @@ for_window [class="^.*"] border pixel 3
 new_window 1pixel
 
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 1 +5% #increase sound volume
-bindsym XF86AudioLowerVolume exec pactl set-sink-volume 1 -5% #decrease sound volume
+bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 1 +3% #increase sound volume
+bindsym XF86AudioLowerVolume exec pactl set-sink-volume 1 -3% #decrease sound volume
 bindsym XF86AudioMute exec pactl set-sink-mute 1 toggle # mute sound
 
 # Keys
