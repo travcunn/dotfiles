@@ -54,7 +54,8 @@ bindsym $mod+d exec rofi -show run -lines 5 -eh 2 -width 100 -padding 300 -opaci
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # lock screen
-bindsym $mod+semicolon exec i3lock -c 111111
+#bindsym $mod+semicolon exec i3lock -c 111111
+bindsym $mod+semicolon exec ~/.i3/scripts/lock.sh
 
 # change focus
 bindsym $mod+h focus left
@@ -211,3 +212,6 @@ exec --no-startup-id xset r rate 250 50
 
 # Start Pulseaudio
 exec --no-startup-id i3-msg 'exec /usr/bin/pulseaudio --start'
+
+# Start compton
+exec --no-startup-id compton -f
