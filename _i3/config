@@ -203,6 +203,9 @@ bindsym XF86AudioMute exec pactl set-sink-mute 1 toggle # mute sound
 exec_always xmodmap -e "clear lock" #disable caps lock switch
 exec_always xmodmap -e "keysym Caps_Lock = Escape" #set caps_lock as escape
 
+# Screens
+exec xrandr --output DisplayPort-2 --mode 1920x1080 --right-of DisplayPort-1
+
 # Desktop background
 exec --no-startup-id feh --bg-scale /home/travis/.wallpaper.jpg
 
