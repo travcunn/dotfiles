@@ -43,6 +43,6 @@
 [submodule "_vim/bundle/vim-table-mode"]
 	path = _vim/bundle/vim-table-mode
 	url = https://github.com/dhruvasagar/vim-table-mode.git
-[submodule "oh-my-zsh"]
-	path = oh-my-zsh
+[submodule "_oh-my-zsh"]
+	path = _oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
