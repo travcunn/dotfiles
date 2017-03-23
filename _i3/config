@@ -216,5 +216,8 @@ exec --no-startup-id xset r rate 250 50
 # Start Pulseaudio
 exec --no-startup-id i3-msg 'exec /usr/bin/pulseaudio --start'
 
+# Start the network-manager applet
+exec --no-startup-id nm-applet
+
 # Start compton
 exec --no-startup-id compton -f
