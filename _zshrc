@@ -12,7 +12,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(docker docker-compose git golang python vagrant vi-mode)
+plugins=(docker docker-compose git golang httpie pep8 pylint python redis-cli ubuntu vagrant vi-mode)
 
 # User configuration
 
