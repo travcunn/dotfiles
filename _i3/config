@@ -218,6 +218,3 @@ exec --no-startup-id i3-msg 'exec /usr/bin/pulseaudio --start'
 
 # Start the network-manager applet
 exec --no-startup-id nm-applet
-
-# Start compton
-exec --no-startup-id compton -f
