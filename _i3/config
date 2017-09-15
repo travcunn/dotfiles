@@ -1,6 +1,9 @@
 # mod
 set $mod Mod4
 
+# Custom launchers
+set $alt Mod1
+
 # thin borders
 hide_edge_borders both
 
@@ -151,7 +154,11 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
 # Open Gmail
-bindsym $mod+m exec "google-chrome https://mail.google.com"
+bindsym $mod+$alt+m exec "google-chrome https://mail.google.com"
+# Open Jenkins
+bindsym $mod+$alt+j exec "google-chrome https://jenkins.dev.getfilehub.com:8181"
+# Open Sentry
+bindsym $mod+$alt+s exec "google-chrome http://kiwip.ftphosting.net"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
