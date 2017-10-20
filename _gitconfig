@@ -1,7 +1,6 @@
 [user]
 	name = Travis Cunningham
-	email = tcunningham@smartfile.com
-	signkingkey = 570331189D66C70A
+	email = travis@sigstr.com
 
 [color]
     diff = auto
@@ -29,4 +28,4 @@
     lola = log --graph --decorate --oneline --all
     ls = ls-files
 [commit]
-	gpgsign = true
+	gpgsign = false
