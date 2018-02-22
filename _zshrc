@@ -1,5 +1,6 @@
+export TERM="xterm-256color"
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/travis/.oh-my-zsh
+export ZSH=/home/travis/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -23,8 +24,6 @@ export GOPATH="$HOME"
 source $ZSH/oh-my-zsh.sh
 
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
-
-eval "$(thefuck --alias)"
 
 # Manually set your language environment
 export LANG=en_US.UTF-8
