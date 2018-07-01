@@ -49,7 +49,7 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 
 # start dmenu (a program launcher)
 #bindsym $mod+d exec dmenu_run
-rofi -show run -theme Pop-Dark -font "System San Francisco Display 12"
+bindsym $mod+d exec rofi -show run -theme Pop-Dark -font "System San Francisco Display 12"
 
 
 # There also is the (new) i3-dmenu-desktop which only displays applications
