@@ -153,13 +153,6 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
-# Open Gmail
-bindsym $mod+$alt+m exec "google-chrome https://mail.google.com"
-# Open Jenkins
-bindsym $mod+$alt+j exec "google-chrome https://jenkins.dev.getfilehub.com:8181"
-# Open Sentry
-bindsym $mod+$alt+s exec "google-chrome http://kiwip.ftphosting.net"
-
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
@@ -238,6 +231,3 @@ exec --no-startup-id nm-applet
 
 # Start the compton window effects (shadow, transparency)
 exec --no-startup-id compton -c -b
-
-# Start the plank (dock)
-exec --no-startup-id plank
